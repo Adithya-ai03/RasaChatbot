@@ -1,0 +1,71 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hey there
+    - hi there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - catch you later
+    - talk to you soon
+
+- intent: book_ticket
+  examples: |
+    - book a flight to [Hyderabad](destination)
+    - I want to fly to [Delhi](destination)
+    - book ticket to [Mumbai](destination)
+    - I want to book a flight to [Kashmir](destination)
+    - Can you get me a flight to [Bangalore](destination)
+    - I need to fly to [Chennai](destination)
+    - Please book a ticket to [Pune](destination)
+    - Book me a flight to [Kolkata](destination)
+    - Could you book a flight to [Jaipur](destination)
+    - Reserve a ticket to [Goa](destination)
+    - I want to go to [Lucknow](destination)
+    - Can you arrange a flight to [Ahmedabad](destination)
+    - Get me a ticket to [Varanasi](destination)
+    - book a one-way flight from [Bengaluru](departure) to [Hyderabad](destination) on [2025-11-01](date)
+    - I need 2 tickets from [Delhi](departure) to [Goa](destination) for [2025-12-15](date)
+    - Return flight from [Mumbai](departure) to [Kolkata](destination) departing [2025-10-20](date) returning [2025-10-25](return_date)
+    - Book a round-trip ticket from [Chennai](departure) to [Pune](destination) for [3](passengers) people on [2025-12-01](date) returning [2025-12-10](return_date)
+    - Can you book a flight for [1](passengers) from [Hyderabad](departure) to [Bangalore](destination) next Friday?
+    - I want a ticket from [Ahmedabad](departure) to [Jaipur](destination) on [2025-11-20](date)
+    - Find me flights from [Lucknow](departure) to [Varanasi](destination) for [2025-11-05](date)
+    - Book a flight to [Pune](destination) leaving [Mumbai](departure) on [2025-12-24](date)
+    - I need a return ticket from [Kolkata](departure) to [Delhi](destination) leaving [2025-12-20](date) and coming back [2025-12-27](return_date)
+    - Reserve 4 seats from [Goa](departure) to [Chennai](destination) on [2026-01-10](date)
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - what are you?
+    - who are you?
+    - are you human?
+    - tell me about yourself
+
+# Optional: Lookup table to improve entity extraction
+- lookup: destination
+  examples: |
+    - Hyderabad
+    - Delhi
+    - Mumbai
+    - Kashmir
+    - Bangalore
+    - Chennai
+    - Pune
+    - Kolkata
+    - Jaipur
+    - Goa
+    - Lucknow
+    - Ahmedabad
+    - Varanasi

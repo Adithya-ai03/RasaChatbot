@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+- story: greet and book flight
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: book_ticket
+    - action: action_book_flight
+
+- story: direct book flight
+  steps:
+    - intent: book_ticket
+    - action: action_book_flight
+
+- story: bot introduction
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot

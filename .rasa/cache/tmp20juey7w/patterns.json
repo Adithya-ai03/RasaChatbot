@@ -1,0 +1,6 @@
+[
+  {
+    "name": "destination",
+    "pattern": "(\\bHyderabad\\b|\\bDelhi\\b|\\bMumbai\\b|\\bKashmir\\b|\\bBangalore\\b|\\bChennai\\b|\\bPune\\b|\\bKolkata\\b|\\bJaipur\\b|\\bGoa\\b|\\bLucknow\\b|\\bAhmedabad\\b|\\bVaranasi\\b)"
+  }
+]

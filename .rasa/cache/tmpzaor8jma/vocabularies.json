@@ -1,0 +1,43 @@
+{
+  "text": {
+    "hi": 7,
+    "hello": 5,
+    "hey": 6,
+    "book": 1,
+    "a": 0,
+    "flight": 3,
+    "to": 10,
+    "hyderabad": 8,
+    "i": 9,
+    "want": 11,
+    "fly": 4,
+    "delhi": 2
+  },
+  "intent": {
+    "greet": 3,
+    "book_flight": 0,
+    "bot_challenge": 1,
+    "goodbye": 2
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_book_flight": 12,
+    "utter_goodbye": 13,
+    "utter_greet": 14,
+    "utter_iamabot": 15
+  },
+  "action_text": null,
+  "intent_response_key": null
+}
