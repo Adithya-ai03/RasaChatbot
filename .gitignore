@@ -1,16 +1,55 @@
+# =========================
 # Python cache files
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
+# =========================
+# Virtual environments
+# =========================
 venv/
 env/
+.venv/
 
+# =========================
 # Jupyter Notebook checkpoints
+# =========================
 .ipynb_checkpoints/
 
+# =========================
 # OS files
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Rasa specific
+# =========================
+# Models folder
+models/
+
+# Logs and debug files
+logs/
+*.log
+
+# Temporary Rasa files
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+.rasa/
+
+# =========================
+# IDE/Editor settings
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Environment files
+# =========================
+.env
